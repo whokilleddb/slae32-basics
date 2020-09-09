@@ -9,7 +9,9 @@ PS : The **compile** program is a shell script to make life easier.
 
 Usage :
 
-> chmod +x compile
-> ./compile FileToCompile.asm
+```
+chmod +x compile
+./compile FileToCompile.asm
+```
 
 ![](/Images/SS.png)
