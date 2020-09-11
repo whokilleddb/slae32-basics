@@ -23,7 +23,7 @@ _start:
 	push dword [sample]
 	pop edx
 
-	; exit progra gracefully
+	; exit program gracefully
 
 	mov eax, 0x1
 	mov ebx, 0x0
