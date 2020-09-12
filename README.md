@@ -13,11 +13,12 @@ Usage :
 chmod +x compile.sh
 ./compile.sh FileToCompile.asm
 ```
-[](/Images/1.png)
+![](/Images/1.png)
+
 For Programs Containing LIBC Functions Use :
 
 ```
 chmod +x gcompile.sh
 ./gcompile.sh FileToCompile.asm
 ```
-[](/Images/2.png)
+![](/Images/2.png)
