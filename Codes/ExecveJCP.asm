@@ -8,7 +8,7 @@ shellcode:
 	
 	pop esi
 	xor ebx, ebx
-	mov byte [esi +9 ], bl
+	mov byte [esi + 9 ], bl
 	mov dword [esi + 10],esi
 	mov dword [esi + 14], ebx
 	lea ebx , [esi]
