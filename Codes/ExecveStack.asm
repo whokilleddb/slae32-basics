@@ -1,7 +1,6 @@
 global _start
 section .text
 _start:
-
 	; push first dword
 	xor eax, eax
 	push eax
